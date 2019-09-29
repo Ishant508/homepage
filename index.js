@@ -4,7 +4,6 @@ window.onload =()=> {
 		return
 	}
 
-	//window.location = "http://www.google.com"
 
 	if (localStorage.getItem("hist_xxx") == null) {
 		var empty_hist = document.createElement('div') 
@@ -12,7 +11,7 @@ window.onload =()=> {
 		document.body.appendChild(empty_hist)
 	} else {
 		//showing
-		// getbtn.click()
+		 
 	}
 	var input = document.getElementById("input")
 	var setbtn = document.getElementById("setbtn")
@@ -23,7 +22,7 @@ window.onload =()=> {
 	setbtn.onclick =()=>{	 
 		var prev_hist = localStorage.getItem("hist_xxx")
 		localStorage.setItem("hist_xxx",prev_hist +","+input.value)
-		// window.location = "http://www.google.com/search?q=" + input.value	 
+		window.location = "http://www.google.com/search?q=" + input.value	 
 	}
 
 	getbtn.onclick =()=>{	 
