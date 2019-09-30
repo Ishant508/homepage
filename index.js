@@ -38,7 +38,7 @@ window.onload =()=> {
 			history.removeChild(history.firstChild)
 		}
 		var hist =  localStorage.getItem("hist_xxx").split(",")
-		for (var i=1;i<hist.length;i++){
+		for (var i=hist.length-1;i>0;i--){
 			var div = document.createElement('div')
 			div.innerHTML = "<a href=http://www.google.com/search?q="+hist[i]+">"+hist[i]+"</a>"
 			history.appendChild(div)
