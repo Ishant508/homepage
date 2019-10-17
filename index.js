@@ -1,4 +1,5 @@
 window.onload =()=> {
+	console.log("hello")
 	if (typeof(browser) == undefined){
 		console.log("no storage mechanism")
 		return
@@ -49,5 +50,10 @@ window.onload =()=> {
 		localStorage.removeItem("hist_xxx")
 		getbtn.click()
 	}
+	
+
+
+	/* the made design thingy*/
+	
 }
 
