@@ -1,5 +1,4 @@
 window.onload =()=> {
-	console.log("hello")
 	if (typeof(browser) == undefined){
 		console.log("no storage mechanism")
 		return
