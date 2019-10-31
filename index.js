@@ -1,5 +1,8 @@
-var hist_xxx = "hist_xxx"
+
 window.onload =()=> {
+	
+	var hist_xxx = "hist_xxx"
+	
 	if (typeof(browser) == undefined){
 		console.log("no storage mechanism")
 		return
