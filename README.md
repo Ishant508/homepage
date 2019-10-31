@@ -9,4 +9,4 @@ A homepage for tracking history
 ## future scope 
 * front-end design 
 * using stack as history code base 
-* proper recommendation 
+ 
